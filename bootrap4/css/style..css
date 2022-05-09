@@ -1,0 +1,344 @@
+header{
+    padding: 20px;
+}
+header .logo img{
+    height: 80px;
+}
+header ul{
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+header ul li{
+    display: inline;
+    margin: 10px;
+}
+header ul li a{
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 16px;
+}
+.input-group{
+    background-color: #c3dfcfbc;
+    border-radius: 20px;
+}
+.input-group input{
+    background: transparent;
+    border: 0;
+    padding: 10px;
+}
+.input-group span{
+    background: transparent;
+    border: 0;
+    margin-top: 5px;
+    padding: 10px;
+    margin-right: 10px;
+}
+.letgo{
+    background: url(../imgae/background.png) no-repeat;
+    background-size: cover;
+    padding: 70px 0;
+
+}
+.letgo .title{
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+.letgo .title h2{
+    font-size: 60px;
+    color: orange;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.letgo .title p{
+    font-size: 23px;
+    margin: 20px auto;
+    max-width: 700px;
+}
+.letgo .item{
+    background-color: #3e4240bc;
+    margin: 0 20px;
+
+}
+.letgo .item img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.letgo .item .content{
+    padding: 35px 10px;
+    color: white;
+
+}
+.shsommun{
+    text-align: center;
+    margin-top: 30px;
+
+}
+.shsommun a{
+    padding: 20px 40px;
+    border-radius: 30px;
+    background-color: #111a15bc;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 300px;
+    display: inline-block;
+}
+
+.main-body2 {
+    background-color: #7f7770;
+}
+
+.text-body2 h3 {
+    font-size: 58px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Open Sans";
+}
+
+.readmore-body2 {
+    margin-top: 50px;
+}
+
+.readmore-body2 :hover {
+    background-color: rgb(172, 131, 131);
+}
+
+.readmore-body2 a {
+    background-color: #e2a355;
+    text-align: center;
+    font-size: 23px;
+    letter-spacing: 5px;
+    line-height: 21px;
+    color: #ffffff;
+    font-weight: 800;
+    font-family: "Open Sans";
+    padding: 25px 40px;
+    border-radius: 37px;
+    text-transform: uppercase;
+    text-decoration: none;
+    width: 334px;
+    display: inline-block;
+}
+
+.text-body2 {
+    align-items: center;
+    justify-items: center;
+    margin-top: 20%;
+}
+
+.text-body2 p {
+    font-size: 29px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+
+.main-body3 {
+    background-color: #deb37e;
+}
+
+.text-body3 {
+    margin-left: 12%;
+    align-items: center;
+    justify-items: center;
+    margin-top: 20%;
+}
+
+.text-body3 h3 {
+    font-size: 58px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Open Sans";
+}
+
+.text-body3 p {
+    font-size: 29px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+
+.readmore-body3 {
+    margin-left: 12%;
+    margin-top: 50px;
+}
+
+.readmore-body3 :hover {
+    background-color: #7f7770;
+}
+
+.readmore-body3 a {
+    background-color: #e2a355;
+    text-align: center;
+    font-size: 23px;
+    letter-spacing: 5px;
+    line-height: 21px;
+    color: #ffffff;
+    font-weight: 800;
+    font-family: "Open Sans";
+    padding: 25px 40px;
+    border-radius: 37px;
+    text-transform: uppercase;
+    text-decoration: none;
+    width: 334px;
+    display: inline-block;
+}
+
+.main-body4 {
+    position: relative;
+}
+
+.text-body4 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text-body4 h2 {
+    color: #ffffff;
+    font-size: 58px;
+    font-weight: 600;
+    font-family: "Open Sans";
+}
+
+.text-body4 p {
+    font-size: 30px;
+    color: #dbdbdb;
+    font-weight: 400;
+    font-family: "Open Sans";
+    text-align: center;
+}
+
+.text-body7 {
+    float: left;
+}
+
+.text-body7 h5 {
+    font-size: 33px;
+    line-height: 33px;
+    color: #deb37e;
+    font-weight: 700;
+    font-family: "Open Sans";
+}
+
+.text-body7 p {
+    font-size: 19px;
+    line-height: 25px;
+    color: #333d42;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+
+.text-content-body7 h1 {
+    font-size: 100px;
+    color: #3f3f3f;
+    font-weight: 700;
+    font-family: "Open Sans";
+    text-align: center;
+}
+
+.text-content-body7 p {
+    margin-top: -2%;
+    font-size: 25px;
+    color: #3f3f3f;
+    font-weight: 600;
+    font-family: "Open Sans";
+    text-align: center;
+}
+
+.text-content-body7 strong a {
+    text-decoration: none;
+    font-size: 21px;
+    line-height: 33px;
+    color: #3f3f3f;
+    font-weight: 700;
+    font-family: "Open Sans";
+    text-align: center;
+}
+
+.text-content-body7 strong :hover {
+    color: #e2a355;
+}
+
+.main-body8 {
+    position: relative;
+}
+
+.text-body8 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text-body8 h1 {
+    font-size: 75px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Open Sans";
+    text-align: center;
+}
+
+.text-body8 p {
+    text-align: center;
+    font-size: 30px;
+    color: #54524f;
+    font-weight: 400;
+    font-family: "Open Sans";
+    text-align: center;
+}
+
+.main-body8 .input-group {
+    position: absolute;
+}
+
+.main-body8 .input-group input {
+    font-size: 25px;
+    color: #54524f;
+    font-weight: 400;
+    font-family: "Open Sans";
+    border-radius: 32px;
+    width: 659px;
+    height: 63px;
+    background-color: #ffffff;
+}
+
+.main-body8 .input-group strong {
+    background-color: #ffffff;
+    border-radius: 32px;
+    width: 222px;
+    height: 63px;
+}
+
+.main-body8 .input-group button {
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Open Sans";
+    text-align: center;
+    width: 222px;
+    height: 65px;
+    border-radius: 32px;
+    background-color: #54524f;
+}
+
+footer {
+    background-color: #7f7770;
+    background-image: url(../imgae/bg-footer.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+@media ( max-width: 786px) {
+    header ul li {
+        display: none;
+    }
+    header input {
+        display: none;
+    }
+}
